@@ -242,7 +242,7 @@ main {
 
     #benefits-mental>div {
         text-align: end;
-        align-self: flex-en;
+        align-self: flex-end;
     }
 
 }
