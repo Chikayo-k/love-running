@@ -1,0 +1,11 @@
+{
+    "editor.wordWrapColumn": 80,
+    "editor.rulers": [],
+    "editor.columnSelection": false,
+    "editor.minimap.maxColumn": 120,
+    "editor.lineNumbers": "on",
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "editor.codeActionsOnSave": {}
+}
