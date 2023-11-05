@@ -213,7 +213,7 @@ main {
 
 /* sign up page */
 #signup {
-    background: url(../images/signup-image.webp);
+    background-image: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -228,6 +228,7 @@ main {
 
 #signup-form>h2 {
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .text-input {
@@ -247,12 +248,12 @@ main {
 }
 
 .join-button {
-    border-radius: 2px;
-    background-color: #454b1b;
-    color: #fafafafa;
-    font-size: 100%;
     margin-top: 20px;
+    border-radius: 2px;
     padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* Footer */
@@ -345,6 +346,27 @@ main {
         column-count: 3;
     }
 
+    /*Sing up*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
 /* Media query:laptops and larger (992px and up) */
